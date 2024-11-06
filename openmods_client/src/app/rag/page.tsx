@@ -4,8 +4,6 @@ type Props = {}
 
 const page = (props: Props) => {
   return (
-    <div className="text-white">page</div>
+    <div>page</div>
   )
 }
-
-export default page
