@@ -29,7 +29,7 @@ const items = [
   },
   {
     title: "Statistics",
-    url: "stats",
+    url: "dashboard/stats",
     icon: ChartColumnIncreasing,
   },
   {
