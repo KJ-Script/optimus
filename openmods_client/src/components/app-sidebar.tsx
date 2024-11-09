@@ -6,6 +6,7 @@ import {
   Settings,
   CirclePlus,
   LogOut,
+  ChartColumnIncreasing
 } from "lucide-react";
 
 import {
@@ -23,22 +24,17 @@ import {
 const items = [
   {
     title: "Agents",
-    url: "#",
+    url: "/dashboard",
     icon: Home,
   },
   {
-    title: "create",
-    url: "#",
-    icon: CirclePlus,
-  },
-  {
-    title: "Calendar",
-    url: "#",
-    icon: Calendar,
+    title: "Statistics",
+    url: "stats",
+    icon: ChartColumnIncreasing,
   },
   {
     title: "Settings",
-    url: "#",
+    url: "settings",
     icon: Settings,
   },
 ];

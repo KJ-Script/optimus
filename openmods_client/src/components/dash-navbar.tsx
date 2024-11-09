@@ -7,6 +7,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { Bell, Plus, Calendar, Settings, Bot  } from "lucide-react"
 import Link from "next/link";
+import { CreateDialogueBox } from "./create-dialogue-box";
 type Props = {};
 
 const username = "Keti Yohannes";
@@ -17,6 +18,7 @@ export function DashNavbar({}: Props) {
 
     </div>
     <div className="flex items-center gap-4">
+        <CreateDialogueBox />
       <Button
         variant="ghost"
         size="icon"
